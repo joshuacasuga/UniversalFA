@@ -6,13 +6,13 @@ Input File Format:
 2) set of final state(s): {state 1}
 3) alphabet set: {c, d}
 4) transitions:
-    0 c 0
-    0 d 1
-    1 c 0
-    1 d 1
-5) Test strings:
-    dccc
-    dcccd
-    ...
+   - 0 c 0
+   - 0 d 1
+   - 1 c 0
+   - 1 d 1
+6) Test strings:
+   - dccc
+   - dcccd
+   - ...
 
 Provided is the main fa.cpp file with implementation of the universal finite automata. Four finite automata files (m1.txt, m2.txt, etc.) are also provided for testing. 
